@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="1"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="12.434">
+    <properties></properties>
+
+            <testcase
+                name="calendar_icon"
+                time="12.434"
+                classname="org.xyz.automation.rediff.Calendar_Automation">
+
+            <failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;[data-selenium-date=&apos;2026-10-19&apos;]&quot;}
+  (Session info: MicrosoftEdge=156.0.4314.42)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.51.0&apos;, revision: &apos;35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.4.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [48da2c04edfc39dc69a05c1d01d8f45e, findElement {using=css selector, value=[data-selenium-date=&apos;2026-10-19&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 156.0.4314.42, fedcm:accounts: true, goog:processID: 67784, ms:edgeOptions: {debuggerAddress: localhost:62652}, msedge: {msedgedriverVersion: 156.0.4314.70 (798ba3526c6f..., userDataDir: C:\Users\ernam\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62652/devtoo..., se:cdpVersion: 156.0.4314.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 48da2c04edfc39dc69a05c1d01d8f45e">
+                <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[data-selenium-date='2026-10-19']"}
+  (Session info: MicrosoftEdge=156.0.4314.42)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.51.0', revision: '35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.4.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [48da2c04edfc39dc69a05c1d01d8f45e, findElement {using=css selector, value=[data-selenium-date='2026-10-19']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 156.0.4314.42, fedcm:accounts: true, goog:processID: 67784, ms:edgeOptions: {debuggerAddress: localhost:62652}, msedge: {msedgedriverVersion: 156.0.4314.70 (798ba3526c6f..., userDataDir: C:\Users\ernam\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62652/devtoo..., se:cdpVersion: 156.0.4314.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 48da2c04edfc39dc69a05c1d01d8f45e
+                org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:253)org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:689)org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:441)org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:435)org.xyz.automation.rediff.Calendar_Automation.calendar_icon(Calendar_Automation.java:30)java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)java.base/java.lang.reflect.Method.invoke(Method.java:565)org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)java.base/java.util.ArrayList.forEach(ArrayList.java:1604)org.testng.TestRunner.privateRun(TestRunner.java:744)org.testng.TestRunner.run(TestRunner.java:616)org.testng.SuiteRunner.runTest(SuiteRunner.java:421)org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)org.testng.SuiteRunner.run(SuiteRunner.java:312)org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)org.testng.TestNG.runSuitesLocally(TestNG.java:1208)org.testng.TestNG.runSuites(TestNG.java:1112)org.testng.TestNG.run(TestNG.java:1079)org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </failure>
+    </testcase>
+
+
+</testsuite>

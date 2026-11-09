@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="8.237">
+    <properties></properties>
+
+
+
+            <testcase
+                name="handleFrames"
+                time="3.598"
+                classname="org.xyz.automation.rediff.HandleKBMouseWindows">
+            </testcase>
+            <testcase
+                name="handleAlerts"
+                time="4.639"
+                classname="org.xyz.automation.rediff.HandleKBMouseWindows">
+            </testcase>
+</testsuite>
